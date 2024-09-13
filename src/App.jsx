@@ -21,6 +21,9 @@ import Swap from './pages/swap';
 import Card from './pages/card';
 import Bills from './pages/bills';
 import Transfer from "./pages/transfer"
+import About from './pages/aboutus';
+import Privacy from './pages/privacy';
+import Contact from './pages/contactus';
 
 
 
@@ -47,6 +50,9 @@ const App =() => {
           <Routes>
             <Route  path='/' element={<Navbar/>}>
               <Route index element={<HomePage/>}/>
+              <Route path='/aboutus' element={<About/>}/>
+              <Route path='/privacy' element={<Privacy/>}/>
+              <Route path='/contactus' element={<Contact/>}/>
               <Route path='/verifyUser' element={<Verify/>}/>
               <Route path="/userDashboard" element={<Dashboard/>}/>
               <Route path='/wallet' element={<Wallet/>}/>

@@ -11,6 +11,7 @@
     "format": "prettier --write ."
   },
   "dependencies": {
+    "@emailjs/browser": "^4.4.1",
     "axios": "^1.7.2",
     "chart.js": "^4.4.3",
     "framer-motion": "^11.3.6",
