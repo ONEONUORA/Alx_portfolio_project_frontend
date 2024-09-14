@@ -1,5 +1,3 @@
-
-
  import { Link, Outlet } from 'react-router-dom';
 import logo from '../assets/logo (1).png';
 import { useState, useContext, useEffect } from 'react';
@@ -21,7 +19,7 @@ const Navbar = () => {
     };
 
     useEffect(() => {
-        // Ensure Navbar updates when userAuth changes
+        // Ensures that the Navbar updates when userAuth changes
         setUserNavPanel(false);
     }, [userAuth]);
 
